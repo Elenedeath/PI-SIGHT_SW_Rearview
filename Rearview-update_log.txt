@@ -1,0 +1,17 @@
+23.10.30
+레거시 lite os 기반에 필수 요소만 설치
+config.txt에 부팅속도, 온도제한 설정
+화면 끄기는 사용 불가
+
+23.11.01
+화면에 꽉 차도록 비디오 해상도 조절
+rfkill block wifi 추가
+
+23.12.16
+비디오 녹화시간 300초로 변경
+온도제한 60도로 변경
+sudo systemctl disable dhcpcd.service
+sudo systemctl disable raspberrypi-net-mods.service
+sudo systemctl disable sshswitch.service
+네트워크 관련 시스템 비활성화했는데 어차피 block wifi라서 그런가 부팅시간 변화 없어서 다시 롤백
+raspi-config에서 SSH 비활성화하니 부팅시간 약간 빨라짐
