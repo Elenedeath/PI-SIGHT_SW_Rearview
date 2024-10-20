@@ -19,5 +19,5 @@
 
 ## 주의사항
 
- - Rearview-16GB-yymmdd.img 펌웨어는 16GB microSD 메모리에 설치할 수 있습니다._
- - _32GB 이상의 메모리 카드를 사용해 후방카메라 영상의 저장 기간을 늘리고 싶은 경우, 우선 16GB 펌웨어를 설치한 뒤, [GParted를 통해 boot 파티션 크기를 늘리세요.](https://learn.adafruit.com/resizing-raspberry-pi-boot-partition/edit-partitions)_
+ - Rearview-32GB-yymmdd.img 펌웨어는 32GB microSD 메모리에 설치할 수 있습니다._
+ - _64GB 이상의 메모리 카드를 사용해 후방카메라 영상의 저장 기간을 늘리고 싶은 경우, 우선 32GB 펌웨어를 설치한 뒤, [GParted를 통해 boot 파티션 크기를 늘리세요.](https://learn.adafruit.com/resizing-raspberry-pi-boot-partition/edit-partitions)_
