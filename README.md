@@ -11,10 +11,10 @@
 
 ## 설치
 
- 1. [라즈베리파이 imager 다운로드](https://www.raspberrypi.com/software/)하고 설치하세요
- 2. [분할압축된 파일을 모두 다운로드](http://naver.me/FqWX0LAK)한 뒤, 압축을 해제하여 Rearview-32GB-yymmdd.img 파일을 만드세요.
+ 1. [라즈베리파이 imager](https://www.raspberrypi.com/software/)앱을 다운로드하고 설치하세요
+ 2. [분할압축된 소프트웨어 파일](http://naver.me/FqWX0LAK)을 모두 다운로드한 후, 압축을 해제하여 Rearview-32GB-yymmdd.img 파일을 만드세요.
  3. 라즈베리파이 imager를 실행하고, MicroSD를 PC에 연결한 뒤, Erase를 선택하여 메모리를 포맷하세요.
- 4. 포맷이 완료되면, Use Custom을 선택하여 Rearview-16GB-yymmdd.img 파일을 선택하세요. (SSH를 비롯한 커스텀 세팅은 사용하지 마세요.)
+ 4. 포맷이 완료되면, Use Custom을 선택하여 Rearview-32GB-yymmdd.img 파일을 선택하세요. (SSH를 비롯한 커스텀 세팅은 사용하지 마세요.)
 
 
 ## 주의사항
