@@ -1,0 +1,17 @@
+23.10.30
+Install only the essentials on legacy lite os base
+Set boot speed and temperature limits in config.txt
+Screen off is not available
+
+23.11.01
+Adjust video resolution to fill the screen
+Add rfkill block wifi
+
+23.12.16
+Change video recording time to 300 seconds
+Temperature limit changed to 60 degrees
+sudo systemctl disable dhcpcd.service
+sudo systemctl disable raspberrypi-net-mods.service
+sudo systemctl disable sshswitch.service
+I disabled the network related system, but since it was blocking wifi anyway, there was no change in boot time, so I rolled back.
+Disabling SSH in raspi-config makes boot time slightly faster
